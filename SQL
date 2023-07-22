@@ -66,3 +66,38 @@ TRUNCATE TABLE PET IMMEDIATE;
 #Drop Table
 DROP TABLE PET;
 
+#String Pattern
+WHERE-requires a predicate
+predicate equates to true false or unknown
+use string patterns to find = string
+SYNTAX-Where (Columnname) like (String Pattern%)
+%is used to represent missing letters
+use with select statement
+
+#range
+used to find data between two values
+can use or ,in,and,between
+EX
+Where country ='AD' or Country="BR"
+where country in ('AU','BR')
+where pages >= 290 and pages <= 300
+where pages between 290 and 300
+
+#sorting
+uses order
+ex: order by title
+default: ascending
+to make it descending order
+EX: order by title DESC
+can also use value of column
+EX order by 2
+
+#GROUPING RESULTS
+Eliminate Duplicates
+Distinct
+EX:select distinct(country) from author
+to see how many in select group
+Group by
+EX: group by country
+Having clause: has a amount equal or greater to the set value
+group by country having count(country) > 4
