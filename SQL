@@ -1,3 +1,5 @@
+#AND statement use AND not &
+
 #create a table
 CREATE TABLE table_name (
     column1 datatype,
@@ -101,3 +103,14 @@ Group by
 EX: group by country
 Having clause: has a amount equal or greater to the set value
 group by country having count(country) > 4
+
+#Built in Functions
+Reducers amount of retrieved data
+speed up processing
+AGGREGATE-SUM,MIN,MAX,AVG Functions
+You can named resulting column
+SYNTAX: select sum(x) as sumx from Pet
+Can preform MAth expression between columns
+EX: AVG(column1/column2)
+SCALER FUNS-Round,LEngth,UCASE,LCASE
+DATE AND TIME FUNCS-Year-MONTH,HOUR
