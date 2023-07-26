@@ -129,3 +129,7 @@ select distinct UCASE(animal) from PETRESCUE
 # find specific date or time
 select SUM(QUANTITY) from PETRESCUE where MONTH(RESCUEDATE)='05';
 
+#SUb Queries and Nested Selects\
+sub-query-a query inside a query-nested
+can evaluate aggregate functions in the Where clause but sub queries can
+put sub query in ()
