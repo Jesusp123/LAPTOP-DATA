@@ -114,3 +114,18 @@ Can preform MAth expression between columns
 EX: AVG(column1/column2)
 SCALER FUNS-Round,LEngth,UCASE,LCASE
 DATE AND TIME FUNCS-Year-MONTH,HOUR
+
+#example of built in function
+select length(animal) from PETRESCUE 
+
+#RESULTS WILL BECOME UPPERCASE
+select UCASE(animal) from PETRESCUE 
+
+#Distinct and Uppercase values
+select distinct UCASE(animal) from PETRESCUE 
+
+#LCASE used for lowercase
+
+# find specific date or time
+select SUM(QUANTITY) from PETRESCUE where MONTH(RESCUEDATE)='05';
+
