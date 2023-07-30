@@ -133,3 +133,22 @@ select SUM(QUANTITY) from PETRESCUE where MONTH(RESCUEDATE)='05';
 sub-query-a query inside a query-nested
 can evaluate aggregate functions in the Where clause but sub queries can
 put sub query in ()
+Syntax:
+SELECT column_name [, column_name ]
+FROM table1 [, table2 ]
+WHERE column_name OPERATOR
+   (SELECT column_name [, column_name ]
+   FROM table1 [, table2 ]
+   WHERE condition);
+EX:
+select * from employees where salary > (select AVG(salary)from employees)
+#giving name to specific value
+select EMP_ID, SALARY, ( select MAX(SALARY) from employees ) AS MAX_SALARY 
+from employees;
+
+#working with multiple tables
+can use sub-queries,implicit join,join operators
+In subqueries-nested query can take data from other table
+to state value from one table use table.value
+EX:
+select EMP_ID, DEP_NAME from employees E, departments D where E.DEP_ID = D.DEPT_ID_DEP;
