@@ -152,6 +152,7 @@ In subqueries-nested query can take data from other table
 EX:
 Select * from employees, where department_ID IN,
 (select department_ID_department from departments)
+select * from employees where JOB_ID IN (select JOB_IDENT from jobs where JOB_TITLE= 'Jr. Designer');
 to state value from one table use table.value
 EX:
 select EMP_ID, DEP_NAME from employees E, departments D where E.DEP_ID = D.DEPT_ID_DEP;
