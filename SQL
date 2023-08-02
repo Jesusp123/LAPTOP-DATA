@@ -157,3 +157,4 @@ select * from jobs  where JOB_IDENT in (select JOB_ID from employees where YEAR(
 to state value from one table use table.value
 EX:
 select EMP_ID, DEP_NAME from employees E, departments D where E.DEP_ID = D.DEPT_ID_DEP;
+select * from employees, jobs where employees.JOB_ID = jobs.JOB_IDENT;
