@@ -153,7 +153,7 @@ EX:
 Select * from employees, where department_ID IN,
 (select department_ID_department from departments)
 select * from employees where JOB_ID IN (select JOB_IDENT from jobs where JOB_TITLE= 'Jr. Designer');
-select * from jobs  where JOB_IDENT in (select JOB_ID from employees where YEAR(B_DATE)>1976)
+select * from jobs  where JOB_IDENT in (select JOB_ID from employees where YEAR(B_DATE)>1976 and sex = 'F')
 to state value from one table use table.value
 EX:
 select EMP_ID, DEP_NAME from employees E, departments D where E.DEP_ID = D.DEPT_ID_DEP;
