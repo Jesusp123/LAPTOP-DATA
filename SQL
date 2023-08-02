@@ -1,5 +1,7 @@
 #AND statement use AND not &
 
+#when querying data, ide automatically capitalizes all letters
+#if column has spaces or special char uses underscore instead
 #create a table
 CREATE TABLE table_name (
     column1 datatype,
