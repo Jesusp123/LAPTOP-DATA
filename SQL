@@ -163,7 +163,7 @@ select * from employees, jobs where employees.JOB_ID = jobs.JOB_IDENT;
 
 #Getting table and column details
 DB2:select * from SYSCAT.TABLES
-select TABSCHEMA, TABNAME, CREATE_TIME from syscat.tables where tabschema=‘PYV10949’ -> will output schema name and table name
+select TABSCHEMA, TABNAME, CREATE_TIME from syscat.tables where tabschema=‘username’ -> will output schema name and table name
 SQL SERVER:INFORMATION_SCHEMA.TABLES
 #retrieve names of columns
 select * from syscat.columns where tabname = ‘DOGS’
