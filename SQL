@@ -168,4 +168,5 @@ SQL SERVER:INFORMATION_SCHEMA.TABLES
 #retrieve names of columns
 select * from syscat.columns where tabname = ‘DOGS’
 #get specific details of all coloumns 
+select count(*) from SYSCAT.COLUMNS where TABNAME = 'CHICAGO_PUBLIC_SCHOOLS';
 select distinct(name), coltype, length from sysibm.syscolumns where tbname = ‘DOGS’
