@@ -170,3 +170,4 @@ select * from syscat.columns where tabname = ‘DOGS’
 #get specific details of all coloumns 
 select count(*) from SYSCAT.COLUMNS where TABNAME = 'CHICAGO_PUBLIC_SCHOOLS';
 select distinct(name), coltype, length from sysibm.syscolumns where tbname = ‘DOGS’
+select COLNAME, TYPENAME, LENGTH from SYSCAT.COLUMNS where TABNAME = 'CHICAGO_PUBLIC_SCHOOLS';
