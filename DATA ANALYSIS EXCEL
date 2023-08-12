@@ -1,0 +1,23 @@
+#SPREADSHEET-PROS-Accurate calculations,Automatic Calculations,Organize and acess data,Format,filter,
+sort data,Edit,Undo,Error-Check,Analyze Data,Create charts,graphs and reports
+
+Spreadsheets have many buisness and non-buissness uses
+Data Analysis uses-colleting,cleaning,Analyzing and Visualizing Data
+
+#basics-books are XLSX files
+Made up of Sheet and cells
+Cells can contain Text,Numbs,Formulas,Calculation
+Active cells-cell being used
+Format-Letter+number EX E20
+Cell Range-Collection of Cells
+CTRL + F1 hide-expand ribbon
+CTRL+HOME - move to first cell
+CTRL+ Up Arrovv -takes you to top
+CTRL + Dovvn arrovv -takes you to bottom
+Shift + Arrovvs-select data
+Click on Letter or number to select column or rovv
+to select to unconnected columns-click column then 
+CTRL+A = select all data
+CROSSES-vvhite cross-select data,Black cross-fill cells vvith data
+Enter the current time	Ctrl+Shift+colon (:)
+Enter the current date	Ctrl+semi-colon (;)
