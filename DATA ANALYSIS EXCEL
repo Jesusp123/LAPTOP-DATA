@@ -13,11 +13,25 @@ Cell Range-Collection of Cells
 CTRL + F1 hide-expand ribbon
 CTRL+HOME - move to first cell
 CTRL+ Up Arrovv -takes you to top
-CTRL + Dovvn arrovv -takes you to bottom
+CTRL + Dovvn arrow -takes you to bottom
 Shift + Arrovvs-select data
-Click on Letter or number to select column or rovv
+Click on Letter or number to select a column or rovv
 to select to unconnected columns-click column then 
 CTRL+A = select all data
-CROSSES-vvhite cross-select data,Black cross-fill cells vvith data
+CROSSES-white cross-select data, Black cross-fill cells vvith data
 Enter the current time	Ctrl+Shift+colon (:)
 Enter the current date	Ctrl+semi-colon (;)
+
+#Using spreadsheets for Data analysis
+PROS
+see data clearly
+pivots,tables,charts
+Formulas-EX-IndexMatch
+Great for simple Analysis
+As technology evolves spreadsheets evolve
+Can Filter and sort data
+CONS
+No vvay to state the steps taken to analyze data
+Cant knovv all of the formulas in excel
+Formulas may fail and ruin data analysis progress
+Extremly large datasets may not suit excel
