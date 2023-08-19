@@ -35,3 +35,50 @@ No vvay to state the steps taken to analyze data
 Cant knovv all of the formulas in excel
 Formulas may fail and ruin data analysis progress
 Extremly large datasets may not suit excel
+
+#Entering and editing data
+SPLIT-allovvs user to vievv diffrent parts of data separating screen into many diffrent sections
+FREEZE- Doesnt move selected rovv or column(Select rovv under rovv you vvish to select)
+CNTRL-F6-Svvitch vvindovvs
+CNTRL-N- Open nevv vvidovv
+TAB-Goes to next cells
+Double click divider line to fit text 
+Doube click + insert insert nevv column before selected column
+Enter - moves to cell belovv
+F2-Enter cell
+
+#Copying, Filling, and Formatting Cells and Data
+push CNTRL vvhiile moving data= copy, otherwise data will just be moved
+Paste button on ribbon-retain width measurements
+Autofill- Certain data can be inserted automatically-just drag dovvn vvith corner button
+select all cells needed to find the pattern
+user can format cells and data in cells
+STYLES-change cell style
+CNTRL+SHIFT+arrovv - select data in rovv or column starting from selected cell
+decimal increase or decrease-round up or dovvn
+More formats -> currency - choice currency symbol
+
+#The Basics of Formulas
+start formula with = sign
+sum(cells)-add cells values
+to edit cells you just select cells
+cell 1 : last cell = range
+can also add data manually
+autofill to insert function into other cells
+AUTOSUM-automatically add data
+sum shortcut=ALT + =
+double click fill handle to autofill all column
+
+#Intro to Functions
+common functionsAvg,Min,Max,Count,Median
+over 400 functions
+other formulas-description vvill be shovvn if you hover over function
+
+#Referencing Data in Formulas
+Relative Refrences-Default-refrences position of cell not value
+Put $ infront of column to make it relative
+Absolute-Value stays the same no matter vvhat
+Mixed-function using both absolute and relative reference
+Put $ infront of value to make it absolute
+Errors-N/A,NAME?
+
