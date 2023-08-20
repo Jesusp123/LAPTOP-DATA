@@ -73,6 +73,8 @@ double click fill handle to autofill all column
 common functionsAvg,Min,Max,Count,Median
 over 400 functions
 other formulas-description vvill be shovvn if you hover over function
+COUNTA-Counts Numbers and text
+Count only counts Numbers
 
 #Referencing Data in Formulas
 Relative Refrences-Default-refrences position of cell not value
