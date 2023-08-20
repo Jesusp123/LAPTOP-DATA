@@ -67,6 +67,7 @@ can also add data manually
 autofill to insert function into other cells
 AUTOSUM-automatically add data
 sum shortcut=ALT + =
+=sum(a1:a3,b1:b3)-add up tvvo diffrent blocks
 double click fill handle to autofill all column
 
 #Intro to Functions
