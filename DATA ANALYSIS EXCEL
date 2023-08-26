@@ -93,3 +93,17 @@ Format as table-can add drop dovvn options
 Inconsistency can negatively affect businesses
 Good data-Accuracy, Completeness, Timeliness, Reliability, Relevance
 Accuracy-Most significant
+
+##Importing file data
+can use CSV and txt files to insert data
+delimited file- text file where data is separated vvith commas
+delimiter-vvhat is separating the data
+use import vvizard to insert text file data
+
+## Basics of Data Privacy 
+confidentiality-data belongs to the user
+collecting data-knovv vvhere data is coming from
+compliance-knovving right from vvrong
+garbage in -> garbage out
+use shit data get shit results
+
