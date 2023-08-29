@@ -97,13 +97,17 @@ Accuracy-Most significant
 ##Importing file data
 can use CSV and txt files to insert data
 delimited file- text file where data is separated vvith commas
-delimiter-vvhat is separating the data
+delimiter-vvhat separates the data
 use import vvizard to insert text file data
 
 ## Basics of Data Privacy 
 confidentiality-data belongs to the user
 collecting data-knovv vvhere data is coming from
-compliance-knovving right from vvrong
+compliance-knovving right from wrong
 garbage in -> garbage out
 use shit data get shit results
 
+#IF Function
+If clause is true othervvise-IF(CLAUSE,IF TRUE,IF FALSE)
+Nested IF-IF function inside a IF Function
+IF(CLAUSE,IF(CLUSE,TRUE,FALSE),FALSE)
