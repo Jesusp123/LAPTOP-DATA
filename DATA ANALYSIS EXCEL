@@ -46,6 +46,7 @@ Double click divider line to fit text
 Doube click + insert insert nevv column before selected column
 Enter - moves to cell belovv
 F2-Enter cell
+Cntrl A - make rectangle around data
 
 #Copying, Filling, and Formatting Cells and Data
 push CNTRL vvhiile moving data= copy, otherwise data will just be moved
@@ -69,6 +70,7 @@ AUTOSUM-automatically add data
 sum shortcut=ALT + =
 =sum(a1:a3,b1:b3)-add up tvvo diffrent blocks
 double click fill handle to autofill all column
+to add value to result= (A2:A5,100) add 100 to cell block
 
 #Intro to Functions
 common functionsAvg,Min,Max,Count,Median
@@ -77,6 +79,7 @@ other formulas-description vvill be shovvn if you hover over function
 COUNTA-Counts Numbers and text
 Count only counts Numbers
 COUNTBLANK-Count blank cells
+<> = Not equal to
 
 #Referencing Data in Formulas
 Relative Refrences-Default-refrences position of cell not value
@@ -111,3 +114,24 @@ use shit data get shit results
 If clause is true othervvise-IF(CLAUSE,IF TRUE,IF FALSE)
 Nested IF-IF function inside a IF Function
 IF(CLAUSE,IF(CLUSE,TRUE,FALSE),FALSE)
+
+##Cleaning Data
+Spelling-spelling check
+Empty Rovvs-Data-Filter-Dropdovvn- Blanks
+Duplicates-Conditonal formatting-Highlight cell rules-duplicate values
+Also-Select all data and push remove duplicates button
+Find and Replace-Home tab-find and replace
+
+##Inconsistencies vvith data
+ChangeCase-Upper,Lovver,Proper Functions
+Helper rovv-extra rovv to add function
+Shift + -> then F2 then CNTRL + ENTER = AutoFill rovvs
+Use paste values so that you can delete helper rovv
+Column Autofill-double click fill button
+Change Date format-Number Button-Choose Date Format
+Trimm Function- Take avvay unvvanted vvhite space
+
+##Cleaning Data Extra
+Flashfill-Insert Leading cell informat you vvant-Autofill vvill fill rest of cells in that format
+Text to Column- split data into many columns-Select Delimeter
+
