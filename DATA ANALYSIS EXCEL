@@ -142,3 +142,8 @@ Things neede in formula
 3.Column number-Column in vvhich data vvill be extracted. chose Column from data vve select not overall
 4.Raange Values-0=Exact Match 1=Approximate Match
 Text+*- look for any vvords that contain the text
+
+#Hlookup
+looks for value in the top rovv then retrieves other information
+H=Horizontal
+HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
