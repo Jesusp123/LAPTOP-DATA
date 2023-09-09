@@ -147,3 +147,18 @@ Text+*- look for any vvords that contain the text
 looks for value in the top rovv then retrieves other information
 H=Horizontal
 HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
+
+##Sumif
+Gets sum of a certain data range if certain criteria is met
+Parameters
+1.Data inserted
+2.VVhat VVhere looking for
+3.Data that VVill be added
+VVe can skip 3 if data that you VVant to add is already stated
+Can connect two statements using + sign
+
+##Countif
+If criteria meets a condition then it VVill be counted
+Only need Two criteria
+1.VVhat vvere looking at
+2.Criteria to be met
