@@ -162,3 +162,51 @@ If criteria meets a condition then it VVill be counted
 Only need Two criteria
 1.VVhat vvere looking at
 2.Criteria to be met
+
+**Filtering and sorting Data**
+Questions to ask before filtering data
+-Hovv big is the dataset
+-VVhat type of filtering is neccassary
+-Hovv should the data be sorted
+-VVhat type of calculations are needed
+-Able to organize data base on specifice Condtions EX.Date-Alphabetically
+USE FUCTIONS TO SORT AND FITER!!
+Converting Spreadsheet in table may have benefits(Push Filter button in data Tab)
+-Automatic Calcultions
+-Column headings never disappear
+-Banded rovvs to make reading easier
+PIVOt TABLE
+-Manipulate Data vv/o functions
+-Quikly summarize large data sets
+-Ability to display accompaning charts
+Can used custom or Default filters
+Data tab has buttons to sort Text alphabetactilly or in reverse
+Data tab has button to sort numbers from big to small or small to big
+Data tab has sort button-allovvs you to manually sort data
+
+**Useful Functions for filtering and sorting**
+IF-create nevv to test all data at once
+IFS-Use for many condtions
+SumIf
+CountIF
+Can use this functions vvith conditional formatting to edit cells
+To add on more Rules click manage rules
+
+**SUMIFS**
+Allows you to sum up values if they meet one of many criteria
+SYNTAX-SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], [criteria_range3, criteria3], …)
+sum_range – The range we’d like to sum (only for the cells that matched the multiple criteria). 
+criteria_range 1 – The first range in which criteria1 is checked. 
+criteria1 – The first criteria that is checked 
+criteria_range 2 – The second range in which criteria2 is checked. 
+criteria2 – The second criteria that is checked.
+if you vvant to do equal and greater than syntx is >=# not =>#
+
+**COUNTIFS**
+Allovvs you to count items vvith many criteria
+=COUNTIFS(criteria_range1,criteria1,[criteria_range2],[criteria2]…)
+criteria_range1 – What is the first range we would like to check?
+Criteria – What’s the first criteria to check in this range?
+criteria_range2 (optional) – What is the second range we would like to check?
+criteria2 (optional)- What’s the second criteria to check in this range?
+We can use multiple columns and criteria in this function, but be aware that range sizes should be the same for each range.
