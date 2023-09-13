@@ -210,3 +210,16 @@ Criteria – What’s the first criteria to check in this range?
 criteria_range2 (optional) – What is the second range we would like to check?
 criteria2 (optional)- What’s the second criteria to check in this range?
 We can use multiple columns and criteria in this function, but be aware that range sizes should be the same for each range.
+
+**Pivot Table**
+First select data
+Click create pivot table
+Confirm Data Range
+Select Nevv VVorksheet
+Can put data into 4 diffrent categories-Filters,Columns,Rovvs and Value
+EX VALUES = Sum,AVG of Data
+Can add multiple layers to each section
+Can fill in missing values by right-clicking- pivot table options-for error values shows-chose
+"Shovv Values as"-Change value format
+"GROUP"-group data together
+Create chart -> Analyze Tab -> tools -> Chart
