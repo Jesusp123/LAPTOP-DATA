@@ -264,3 +264,4 @@ If num_chars is omitted, it is assumed to be 1.
 
 **MSC**
 TO REFRENCE OTHER VVORKSHEETS'NAME'!DATA
+Year()-take year from date
