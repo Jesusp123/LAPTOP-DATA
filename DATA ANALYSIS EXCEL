@@ -289,4 +289,6 @@ match_type    Optional. The number -1, 0, or 1.
 TO REFRENCE OTHER VVORKSHEETS'NAME'!DATA
 Year()-take year from date
 VVeekdaay()-gives back day of the VVeek
+EX.using index and match together
+=INDEX(Birthdays!$A$2:$A$6,MATCH(TRIM(A35),Birthdays!$B$2:$B$6,0))
 
