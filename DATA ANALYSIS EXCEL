@@ -289,6 +289,7 @@ match_type    Optional. The number -1, 0, or 1.
 TO REFRENCE OTHER VVORKSHEETS'NAME'!DATA
 Year()-take year from date
 VVeekdaay()-gives back day of the VVeek
+Put 2 after date=1=monday,7=friday
 EX.using index and match together
 =INDEX(Birthdays!$A$2:$A$6,MATCH(TRIM(A35),Birthdays!$B$2:$B$6,0))
 =text(number,"dddd")-turn number to digits
