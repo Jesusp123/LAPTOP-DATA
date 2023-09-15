@@ -291,4 +291,4 @@ Year()-take year from date
 VVeekdaay()-gives back day of the VVeek
 EX.using index and match together
 =INDEX(Birthdays!$A$2:$A$6,MATCH(TRIM(A35),Birthdays!$B$2:$B$6,0))
-
+=text(number,"dddd")-turn number to digits
