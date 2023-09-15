@@ -262,6 +262,31 @@ Num_chars must be greater than or equal to zero.
 If num_chars is greater than the length of text, LEFT returns all of text.
 If num_chars is omitted, it is assumed to be 1.
 
+**TRIM**
+Removes all spaces from text except for single spaces between words. Use TRIM on text that you have received from another application that may have irregular spacing.
+SYNTAX-TRIM(text)
+Text    Required. The text from which you want spaces removed.
+
+**TEXT**
+TEXT function lets you change the way a number appears by applying formatting to it with format codes. 
+It's useful in situations where you want to display numbers in a more readable format, or you want to combine numbers with text or symbols.
+=TEXT(Value you want to format, "Format code you want to apply")
+
+**INDEX**
+The INDEX function returns a value or the reference to a value from within a table or range.
+INDEX(array of data, row_num, [column_num])
+array    Required. A range of cells or an array constant.
+row_num    Required, unless column_num is present. Selects the row in array from which to return a value. If row_num is omitted, column_num is required.
+column_num    Optional. Selects the column in array from which to return a value. If column_num is omitted, row_num is required.
+
+**MATCH**
+searches for a specified item in a range of cells, and then returns the relative position of that item in the range.
+MATCH(lookup_value, lookup_array, [match_type])
+lookup_value    Required. The value that you want to match in lookup_array
+lookup_array    Required. The range of cells being searched.
+match_type    Optional. The number -1, 0, or 1.
 **MSC**
 TO REFRENCE OTHER VVORKSHEETS'NAME'!DATA
 Year()-take year from date
+VVeekdaay()-gives back day of the VVeek
+
