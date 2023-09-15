@@ -285,6 +285,31 @@ MATCH(lookup_value, lookup_array, [match_type])
 lookup_value    Required. The value that you want to match in lookup_array
 lookup_array    Required. The range of cells being searched.
 match_type    Optional. The number -1, 0, or 1.
+
+**XLOOKUP**
+find things in a table or range by row. For example, look up the price of an automotive part by the part number
+XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])
+[if_not_found]-Where a valid match is not found, return the [if_not_found] text you supply.
+If a valid match is not found, and [if_not_found] is missing, #N/A is returned.
+[match_mode]-Specify the match type:
+0 - Exact match. If none found, return #N/A. This is the default.
+-1 - Exact match. If none found, return the next smaller item.
+1 - Exact match. If none found, return the next larger item.
+2 - A wildcard match where *, ?, and ~ have special meaning.
+[search_mode]-Specify the search mode to use:
+1 - Perform a search starting at the first item. This is the default.
+-1 - Perform a reverse search starting at the last item.
+2 - Perform a binary search that relies on lookup_array being sorted in ascending order. If not sorted, invalid results will be returned.
+-2 - Perform a binary search that relies on lookup_array being sorted in descending order. If not sorted, invalid results will be returned.
+
+**UNIQUE**
+UNIQUE function returns a list of unique values in a list or range. 
+add arrays
+
+**VALUE**
+Converts a text string that represents a number to a number.
+VALUE(text)
+
 **MSC**
 TO REFRENCE OTHER VVORKSHEETS'NAME'!DATA
 Year()-take year from date
