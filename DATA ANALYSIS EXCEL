@@ -310,6 +310,42 @@ add arrays
 Converts a text string that represents a number to a number.
 VALUE(text)
 
+**ISNUMBER**
+Returns true if value is number
+SYNTAX-ISNUMBER(Data)
+
+**FILTER**
+allows you to filter a range of data based on criteria you define
+SYNTX =FILTER(array,include,[if_empty])
+array-The array, or range to filter
+include-A Boolean array whose height or width is the same as the array
+[if_empty]-The value to return if all values in the included array are empty (filter returns nothing)
+use * as AND-to combine datasets
+use + as OR
+
+**LEN**
+ returns the number of characters in a text string.
+SYNTAX-LEN(DATA)
+
+*SUBSTITUTE**
+Substitutes new_text for old_text in a text string.
+SYNTX-SUBSTITUTE(text, old_text, new_text, [instance_num])
+TEXT-The text or the reference to a cell containing text for which you want to substitute characters.
+OLD TEXT-The text you want to replace.
+NEVV TEXT-The text you want to replace old_text with.
+INSTANCE NUM-Specifies which occurrence of old_text you want to replace with new_text.
+SEARCH(find_text,within_text,[start_num])
+FIND TEEXT-The text that you want to find.
+VVITHIN TEXT-The text in which you want to search for the value of the find_text argument.
+START NUM-The character number in the within_text argument at which you want to start searching.
+CAN BE USED VVITH MID AND REPLACE
+
+**SEARCH**
+The SEARCH function locate one text string within a second text string, and returns the number of the
+starting position of the first text string from the first character of the second text string
+The SEARCH and SEARCHB functions locate one text string within a second text string, and return 
+the number of the starting position of the first text string from the first character of the second text string
+SYNTAX-
 **MSC**
 TO REFRENCE OTHER VVORKSHEETS'NAME'!DATA
 Year()-take year from date
