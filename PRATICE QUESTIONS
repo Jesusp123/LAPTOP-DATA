@@ -1,0 +1,36 @@
+#1Mention the differences between Data Mining and Data Profiling
+DATA MINING-process of discovering relevant information that has not yet been identified before,raw data is converted into valuable information
+DATA PROFILING-evaluate a dataset for its uniqueness, logic, and consistency,cannot identify inaccurate or incorrect data values.
+
+#2 Define the term 'Data Wrangling in Data Analytics
+ process wherein raw data is cleaned, structured, and enriched into a desired usable format for better decision making
+
+#3What are the various steps involved in any analytics project
+1.Finding out the question you VVant to ansvver
+2.Collecting data
+3.Cleaning data
+4.Analyzing Data
+5.Find patterns,insights and future trends
+
+#4. What are the common problems that data analysts encounter during analysis?
+1.Using duplicaate data
+2.Not collecting meaniful data
+3.Not securing personal data
+
+#5. Which are the technical tools that you have used for analysis and presentation purposes
+#EXCEL
+#SQL
+#POVVER BL
+# PYTHON
+# POVVER POINT
+
+#6. What are the best methods for data cleaning
+1. Inspecting Data
+2. Getting rid of duplicates
+3.cross-validation
+4. Normalize data at the entry point
+
+# 7. What is the significance of Exploratory Data Analysis 
+1.helps you obtain confidence in your data
+2. allows you to refine your selection of feature variables
+3. can discover hidden trends and insights from the data.
