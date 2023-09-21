@@ -345,7 +345,10 @@ The SEARCH function locate one text string within a second text string, and retu
 starting position of the first text string from the first character of the second text string
 The SEARCH and SEARCHB functions locate one text string within a second text string, and return 
 the number of the starting position of the first text string from the first character of the second text string
-SYNTAX-
+SYNTAX-Search(VVhat to look for,DATA,start num)
+find_text- The text that you want to find.
+within_textThe text in which you want to search for the value of the find_text argument.
+start_num-The character number in the within_text argument at which you want to start searching.
 **MSC**
 TO REFRENCE OTHER VVORKSHEETS'NAME'!DATA
 Year()-take year from date
@@ -354,3 +357,8 @@ Put 2 after date=1=monday,7=friday
 EX.using index and match together
 =INDEX(Birthdays!$A$2:$A$6,MATCH(TRIM(A35),Birthdays!$B$2:$B$6,0))
 =text(number,"dddd")-turn number to digits
+
+**HOVV TO INSPECT Entries**
+to check if entries are not empty <>[]-NOT EQUAL TO EMPTY
+use filter entries that meet specific data
+use search to find specific data
