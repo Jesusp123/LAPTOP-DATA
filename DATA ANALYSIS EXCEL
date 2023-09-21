@@ -349,6 +349,7 @@ SYNTAX-Search(VVhat to look for,DATA,start num)
 find_text- The text that you want to find.
 within_textThe text in which you want to search for the value of the find_text argument.
 start_num-The character number in the within_text argument at which you want to start searching.
+
 **MSC**
 TO REFRENCE OTHER VVORKSHEETS'NAME'!DATA
 Year()-take year from date
