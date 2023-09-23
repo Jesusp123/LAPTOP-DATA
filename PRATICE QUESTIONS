@@ -30,7 +30,43 @@ DATA PROFILING-evaluate a dataset for its uniqueness, logic, and consistency,can
 3.cross-validation
 4. Normalize data at the entry point
 
-# 7. What is the significance of Exploratory Data Analysis 
+# 7. Wh
+at is the significance of Exploratory Data Analysis 
 1.helps you obtain confidence in your data
 2. allows you to refine your selection of feature variables
-3. can discover hidden trends and insights from the data.
+3. can discover hidden trends and
+insights from the data.
+
+#8. Explain descriptive, predictive, and prescriptive analytics.
+Descriptive-provides insights into the past to answer “what has happened”,Uses data aggregation and data mining techniques
+Predictive-Understands the future to answer “what could happen”,Uses statistical models and forecasting techniques
+Prescriptive- Suggest various courses of action to answer “what should you do”,Uses simulation algorithms and optimization techniques to advise possible outcomes
+
+#9.What are the different types of sampling techniques used by data analysts?
+Simple random sampling
+Systematic sampling
+Cluster sampling
+Stratified sampling
+Judgmental or purposive sampling
+
+#10.Describe univariate, bivariate, and multivariate analysis
+univariate-data analysis where the data being analyzed contains only one variable. 
+bivariate-analysis of two variables to find causes, relationships, and correlations between the variables. 
+multivariate- analysis of three or more variables to understand the relationship of each variable with the other variables
+
+#11.What are your strengths and weaknesses as a data analyst?
+Strengths-strong analytical skills, attention to detail, proficiency in data manipulation and visualization
+VVeakness-limited domain knowledge, lack of experience with certain data analysis tools or techniques
+
+#12.What are the ethical considerations of data analysis
+Privacy
+Concent
+Accountbility
+Security
+Transparecy
+
+#13 What are some common data visualization tools you have used?
+Povver BI
+Excel 
+Matplotlib
+
