@@ -363,3 +363,5 @@ EX.using index and match together
 to check if entries are not empty <>[]-NOT EQUAL TO EMPTY
 use filter entries that meet specific data
 use search to find specific data
+
+## Histogram ##
