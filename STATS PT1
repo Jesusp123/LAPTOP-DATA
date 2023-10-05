@@ -22,7 +22,7 @@ Percents-Fraction as a Decimal
 
 ## Absolute Values
 ||=Absolute Values
-Numerical value of a real number
+The numerical value of a real number
 mod x = |x|
 
 ## Inequalities
@@ -35,11 +35,18 @@ Used in Data Analysis
 n=sample size
 Xi=height of the Ith individual
 {Xi:i=1,2,...,n}
-
-![Screenshot 2023-10-04 222251](https://github.com/Jesusp123/LAPTOP-DATA/assets/87102287/d2fe00cc-21f5-4196-aeb0-4c650e5c3103)
-
 Read as Sigma Xi for i equals 1 to n
 
 ## Index of Summation
 
-## The graph of linear function is not yet done
+##Graphs
+Variable Y depends on X
+Y=F(x)
+Types of functions that can result in Graphics
+Linear-straight line
+Normal
+
+## The graph of linear function
+form from f(x)=a+bx
+include slope y=mx+b
+
