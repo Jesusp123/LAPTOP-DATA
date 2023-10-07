@@ -38,7 +38,7 @@ Xi=height of the Ith individual
 Read as Sigma Xi for i equals 1 to n
 
 ## Index of Summation
-
+if all Xi are summed then i=1 can be left as 1
 ##Graphs
 Variable Y depends on X
 Y=F(x)
@@ -46,7 +46,40 @@ Types of functions that can result in Graphics
 Linear-straight line
 Normal
 
-## The graph of linear function
+## The graph of a linear function
 form from f(x)=a+bx
 include slope y=mx+b
+
+##Population
+Number of subjects being studied
+Populations don't have to be people
+Populations can be finite but unknown
+survey population can be different from the total population
+can be difficult to find the population of certain subjects
+
+##BIAS
+VVe VVant to minimize bias 
+estimation VVhich results in errors
+BAD for fair surveys
+
+##PARAMETERS
+Measure which completely describes a function
+Y=A + Bx - A and B are the Parameters
+Important functions mean and variance
+Knovving parameters- allovvs to dravv a unique normal curve
+
+##SAMPLING
+Use the data we have collected to estimate certain parameters
+sampling error-difference between the estimate of a parameter and its true value
+RANDOM SAMPLING
+Avoids systematic bias and allows an assessment of the size of the sampling size
+Allovvs a known non-zero value to be attached to every population unit
+STRATIFIED SAMPLING-Precision of estimates should be improved if the stratification factors
+are appropriate
+CLUSTER SAMPLING-selecting subjects from clusters
+
+##Randomisation
+The process by which a random sample is selected
+avoids bias
+Sampling VV/O replacement means that once a population unit is selected it is removed from the remaining population
 
