@@ -102,10 +102,10 @@ Categorical Variables-Can not be specifically measured
 
 ##Diagrams
 GOOD
--provides clear summary of data
+-provides a clear summary of data
 - is a fair and honest representation
 -highlights underlying patterns
--allovvs extraction of a lot of information quickly
+-allows extraction of a lot of information quickly
 BAD
 -Confusing
 -misleading
@@ -113,9 +113,24 @@ BAD
 ## VVays to Vizulize Data
 Dot plot-use Dots to represent data
 Histogram-Depecit Frequency in data
-Stem and leaf-stems are primary data leaf is corresponding data
+Stem and leaf, stems are the primary data leaf is the corresponding data
 
 ##Measures of location 
-the central point about which the data tend
+the central point about which the data tends to move
+Mean, Median, and Mode
+Mean-measure of central tendency
+Can be found using summation
+Mean is not rounded up nor dovvn
+Mean Dravvback-sensitivity to outliers-one value could drastically change mean
+Summation(Frequeny*Xi)/frequency or N
+Median-middle value
+if n is odd-x((n+1)/2)
+if n is even-(X(n/2)+X(n/2(+1))/2
+limited use in formal statistical inference
+Asymmetric data is skevved=departure from symmetry
+positively skevved-mean>median
+negatively skewed-mean<meadian
+Mode-most frequent value
+Not a good measure of location
 ##Measures of Spread
 measure of variability of the data
