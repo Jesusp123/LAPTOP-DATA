@@ -151,3 +151,17 @@ population variance=o^2=E(Xi-u)^2/N
 U=population mean
 Sample standard devation=s=SQR(S^2)+SQR(Sxx/n-1)
 relative frequency=Fk/n
+
+##Sample Space
+The possible results of our event
+Event-Possibilities of outcome
+Probabilty-0 to 1
+VVritten as P(A)-Prob of event
+E = Is member of
+N=POSSIBLE OUTCOME
+n= outcomes vve vvant
+Find odds = 1-Negative outcomes
+
+##Relative Frequenvy-P(A)=f/F
+f=possibile outcome
+F=outcomes related to our event
