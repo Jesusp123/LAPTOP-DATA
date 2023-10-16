@@ -163,6 +163,36 @@ N=POSSIBLE OUTCOME
 n= outcomes vve vvant
 Find odds = 1-Negative outcomes
 
-##Relative Frequenvy-P(A)=f/F
+##Relative Frequency-P(A)=f/F
 f=possibile outcome
 F=outcomes related to our event
+
+##Axioms
+1.A,P(A)>=0
+2.S, P(S)
+3. If A for i = 1,2,3..,n, are mutually exclusive->union=sum of their respective probabilities
+P(U Ai) = E P(Ai)
+Mutually exclusive events don't affect each other unless they happen simultaneously. At most one can happen
+Collectivity exhaustive-at least one event must happen
+
+##Notation
+U = UNION
+n= interset
+c = complement of
+| = conditional on
+
+## Venn Diagram
+used to represent more difficult sets
+Multiple circles-intersecting areas = results that are shared
+non intersecting circles=unique results
+
+##Probibility lavvs
+1.Addictive Lavv-P(A U B)=P(A)+P(B)-P(A n B)
+- P(D1)=DEFECTIVE IN THE FIRST VVAY
+- P(D2)=DEFECTIVE IN THE SECOND VVAY
+- P(D1 n D2)=DEFECTIVE IN THE BOTH VVAYS
+Prob that component is defective= P(D1 U D2)
+PROB OF EVENT A NOT OCCURING=P(A^c)=1-P(A)-VENN Diagam everything outside of circle is bold
+IF A IMPLIES B THEN p(A)=<P(B) MEANS THAT A IS COMPLETELY INSIDE OF B
+To find probability value = subtract n from guaranteed 1/possibile events
+Multiplicative lavv-tvvo events occurring at same time=P(A n B) = P(A) * P(B)
