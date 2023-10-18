@@ -196,3 +196,15 @@ PROB OF EVENT A NOT OCCURING=P(A^c)=1-P(A)-VENN Diagam everything outside of cir
 IF A IMPLIES B THEN p(A)=<P(B) MEANS THAT A IS COMPLETELY INSIDE OF B
 To find probability value = subtract n from guaranteed 1/possibile events
 Multiplicative lavv-tvvo events occurring at same time=P(A n B) = P(A) * P(B)
+
+Conditional probability
+P(A|F)!= P(A)
+A and F are not Independent Events
+P(A|F)=A n F / F
+
+Total Probability
+P(A)=P(A|B) P(B) + P(A|B^C) P(B^C)
+
+#Bayes Formula
+P(A|B)=P(B|A)P(A)/P(B)
+P(Bk|A)=(P(A|Bk)P(Bk)/E P(A|Bi)P(Bi)
