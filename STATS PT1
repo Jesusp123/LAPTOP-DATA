@@ -208,3 +208,16 @@ P(A)=P(A|B) P(B) + P(A|B^C) P(B^C)
 #Bayes Formula
 P(A|B)=P(B|A)P(A)/P(B)
 P(Bk|A)=(P(A|Bk)P(Bk)/E P(A|Bi)P(Bi)
+
+## Probability TREE
+a=Take sum of all probailities
+P(A|a)= A n a
+Tree-First Branch-Base Probabilities
+Second Branch- Secondary Prob
+Final Probabilities-Primary * Secondary probabilities
+
+P(A n B) = P(A)*P(B)
+
+Random Variable-mapping of outcomes in sample space to real numbers
+Real value results in Random result
+Capital letter = Random Variable
