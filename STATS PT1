@@ -240,3 +240,8 @@ statistical inference-infer unknown parameters based on data
 Estimator-statistic
 Estimate-parameter
 Proportion = Pi
+
+Sampling Distribution o X-BAR
+N(U,O^2/N)
+Standard Error-O/SQR(N)
+P(X>N)=P(Z>N-U / O/SQR(SAMPLE SIZE)
