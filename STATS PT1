@@ -241,7 +241,10 @@ Estimator-statistic
 Estimate-parameter
 Proportion = Pi
 
-Sampling Distribution o X-BAR
+Sampling Distribution of X-BAR
 N(U,O^2/N)
 Standard Error-O/SQR(N)
-P(X>N)=P(Z>N-U / O/SQR(SAMPLE SIZE)
+P(X>N)=P(Z> N-U / O/SQR(SAMPLE SIZE)
+
+Sample Distribution of Estimator
+N(0,Var(0))=(N(0,(S.ERROR(0))^2)
