@@ -255,3 +255,7 @@ Za = 1-confidence variable
 Find O with s^2 = 1/N-1 E (Xi-X-BAR)^2
 If O is Unkovvn replace Z vvith T and O with S
 T= 1-Confidence, N-1
+
+Confidence variable of population
+Yes or No Questions
+P+-Za/2 * (P(1-P)/N)
