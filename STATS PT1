@@ -255,3 +255,9 @@ Za = 1-confidence variable
 Find O with s^2 = 1/N-1 E (Xi-X-BAR)^2
 If O is Unkovvn replace Z vvith T and O with S
 T= 1-Confidence, N-1
+
+Confidence Interval for a Single Proportion
+Data taken from yes or no questions
+PI=estimator of the population proportion
+N(PI,PI(1-PI)/N)->ESE(P)->SQR(P(1-P)/N)->SQR(R/N(1-R/N)/N)
+CONFIDENE INTERVAL = P+-Za/2 * SQR(P(1-P)/N)
