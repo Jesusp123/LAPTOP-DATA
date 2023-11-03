@@ -269,3 +269,12 @@ N> (Za/2)^2 O^2 / e^2
 Confidence interval endpoints for the difference between two proportions
 P1-P2+-Za/2 * SQR(P1(1-P1)/n1 + P2(1-P2)/n2)
 After-Before
+
+Difference Between Two Population Means
+Unpaired samples Varince Knovvn-X-BAR1 - X-Bar 2 +- Za/2 * SQR((O^2/n1)+(O^2/n2)) 
+Variances Unknown and Unequal-X-BAR1 - X-Bar 2 +- Za/2 * SQR((S^2/n1)+(S^2/n2)) 
+Variances Unknown and Equal-Pooled variance estimator-S^2p=(n1-1)S^2 + (n2 - 1) S#2 / n1+n2 -2
+X-BAR1 - X-Bar 2 +- ta/2,n1+n2-2 * SQR(S^2 p) 
+
+confidence interval for the mean difference
+X-bar +- ta/2,n-1 * s/SQR(N)
