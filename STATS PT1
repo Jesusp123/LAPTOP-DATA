@@ -144,13 +144,15 @@ Q3=.75(N+1)
 BOXPLOT-middle line=median
 Upper and lower ends are quartiles
 The ends of boxes are Values that are not outliers
-Sxx=CORRECTED SUM OF SQUARES-N E I=1- (Xi-ABX)^2=Xi^2-nx^2
-ABX=E Xi/n 
-sample variance=s^2=Sxx/n-1=(1/n-1)E(Xi-ABX)^2=(1/N-1)E Xi^2 - NABX^2
-population variance=o^2=E(Xi-u)^2/N
-U=population mean
+SUM OF SQUARES=E(Xi-X-BAR)^2
+X-BAR=E Xi/n 
+sample variance=E(Xi-X-BAR) / n-1
+population variance=o^2=E(Xi-U)^2/N
+U=population mean=E(Xi)/N
 Sample standard devation=s=SQR(S^2)+SQR(Sxx/n-1)
 relative frequency=Fk/n
+Sample-From larger population
+Population-Entire Popultion
 
 ##Sample Space
 The possible results of our event
