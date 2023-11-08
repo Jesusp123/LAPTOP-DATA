@@ -146,10 +146,11 @@ Upper and lower ends are quartiles
 The ends of boxes are Values that are not outliers
 SUM OF SQUARES=E(Xi-X-BAR)^2
 X-BAR=E Xi/n 
-sample variance=E(Xi-X-BAR) / n-1
+sample variance=S^2 = E(Xi-X-BAR) / n-1
 population variance=o^2=E(Xi-U)^2/N
 U=population mean=E(Xi)/N
-Sample standard devation=s=SQR(S^2)+SQR(Sxx/n-1)
+Sample standard devation=s=SQR(S^2)
+POPULATION STANDARD DEVIATION-0=SQR(O^2)
 relative frequency=Fk/n
 Sample-From larger population
 Population-Entire Popultion
@@ -181,7 +182,8 @@ Collectivity exhaustive-at least one event must happen
 U = UNION
 n= interset
 c = complement of
-| = conditional on
+| = conditional on=Formula=P(A|B)=P(A and B)/P(B)
+P(B)=Anything that contians B
 
 ## Venn Diagram
 used to represent more difficult sets
