@@ -179,9 +179,9 @@ Mutually exclusive events don't affect each other unless they happen simultaneou
 Collectivity exhaustive-at least one event must happen
 
 ##Notation
-U = UNION
-n= interset
-c = complement of
+U = UNION=P(A U B)=P(A)+P(B)-P(A n B)
+n= interset=P(A n B)=P(A|B)P(B)
+c = complement of=P(A)=P'=1-P(A)
 | = conditional on=Formula=P(A|B)=P(A and B)/P(B)
 P(B)=Anything that contians B
 
