@@ -207,11 +207,12 @@ A and F are not Independent Events
 P(A|F)=A n F / F
 
 Total Probability
-P(A)=P(A|B) P(B) + P(A|B^C) P(B^C)
+P(A)=E P(Ei)P(A|Ei)
+Ei=Hovv oftern events happens
+P(A|Ei)=Error Prob
 
 #Bayes Formula
-P(A|B)=P(B|A)P(A)/P(B)
-P(Bk|A)=(P(A|Bk)P(Bk)/E P(A|Bi)P(Bi)
+P(Ei|A)=EVENT*ERROR/P(A)
 
 ## Probability TREE
 a=Take sum of all probailities
