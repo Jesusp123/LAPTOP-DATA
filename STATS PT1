@@ -223,9 +223,11 @@ Final Probabilities-Primary * Secondary probabilities
 
 P(A n B) = P(A)*P(B)
 
-Random Variable-mapping of outcomes in sample space to real numbers
+#Random Variable-mapping of outcomes in sample space to real numbers
 Real value results in Random result
 Capital letter = Random Variable
+All values added up must equal 1
+C=1-N
 
 Expectation Operator= E
 Population Mean = E(X)=E XiPi
@@ -247,10 +249,11 @@ Estimate-parameter
 Proportion = Pi
 
 Sampling Distribution of X-BAR
-N(U,O^2/N)
-Standard Error-O/SQR(N)
-P(X>N)=P(Z> N-U / O/SQR(SAMPLE SIZE)
-
+U = Mean
+Standard Deviation=O/SQR(N)
+Standard Error=s/SQR(N)
+O=Populaton standard deviation
+s= sample standard deviation
 Sample Distribution of Estimator
 N(0,Var(0))=(N(0,(S.ERROR(0))^2)
 
