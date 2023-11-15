@@ -257,12 +257,15 @@ s= sample standard deviation
 Sample Distribution of Estimator
 N(0,Var(0))=(N(0,(S.ERROR(0))^2)
 
-confidence interval endpoints of single mean = X-BAR +- Za/2 * O/SQR(N)
+confidence interval endpoints of sample mean = X-BAR +- Za/2 * O/SQR(N)
 Za = 1-confidence variable
 
-Find O with s^2 = 1/N-1 E (Xi-X-BAR)^2
-If O is Unkovvn replace Z vvith T and O with S
-T= 1-Confidence, N-1
+If O is unknovvm
+X-BAR +- t* x Sx/SQR(N)
+t*= critical value
+df=n-1
+degrees = Confidence interval
+Sx=sample standard deviation
 
 Confidence variable of population
 Yes or No Questions
