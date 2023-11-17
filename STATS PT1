@@ -260,16 +260,17 @@ N(0,Var(0))=(N(0,(S.ERROR(0))^2)
 confidence interval endpoints of sample mean = X-BAR +- Za/2 * O/SQR(N)
 Za = 1-confidence variable
 
-If O is unknovvm
+If O is unknown
 X-BAR +- t* x Sx/SQR(N)
 t*= critical value
 df=n-1
 degrees = Confidence interval
 Sx=sample standard deviation
 
-Confidence variable of population
-Yes or No Questions
-P+-Za/2 * (P(1-P)/N)
+Confidence variable of proportion
+P-BAR+-Z * SQR(P(1-P) / N)
+P-BAR=NEGATIVE/SAMPLE
+Z=CRITICAL VALUE OF CONFIDENCE INTERVAL
 
 Sample size determination for a single proportion
 Greater Than (Za/2)^2 p(1-p)/e^2
