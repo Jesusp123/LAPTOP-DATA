@@ -278,6 +278,8 @@ Greater Than (Za/2)^2 p(1-p)/e^2
 Sample size determination for a single mean
 N> (Za/2)^2 O^2 / e^2
 
+e=margin of error
+
 Confidence interval endpoints for the difference between two proportions
 P1-P2+-Za/2 * SQR(P1(1-P1)/n1 + P2(1-P2)/n2)
 After-Before
