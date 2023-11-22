@@ -278,17 +278,20 @@ Greater Than (Za/2)^2 p(1-p)/e^2
 Sample size determination for a single mean
 N> (Za/2)^2 O^2 / e^2
 
-e=margin of error
+e=margin of error=Za/2*SQR((O1)^2/n1 + (O2)^2/n2)
 
 Confidence interval endpoints for the difference between two proportions
 P1-P2+-Za/2 * SQR(P1(1-P1)/n1 + P2(1-P2)/n2)
 After-Before
 
 Difference Between Two Population Means
-Unpaired samples Varince Knovvn-X-BAR1 - X-Bar 2 +- Za/2 * SQR((O^2/n1)+(O^2/n2)) 
-Variances Unknown and Unequal-X-BAR1 - X-Bar 2 +- Za/2 * SQR((S^2/n1)+(S^2/n2)) 
-Variances Unknown and Equal-Pooled variance estimator-S^2p=(n1-1)S^2 + (n2 - 1) S#2 / n1+n2 -2
-X-BAR1 - X-Bar 2 +- ta/2,n1+n2-2 * SQR(S^2 p) 
+Unpaired samples O(Populatin Standar Deviation) knovvn- X-BAR1 - X-Bar 2 +- Za/2 * SQR((O1^2/n1)+(O2^2/n2)) 
+
+O unknown and Unequal var-DF=N-1
+X-BAR1 - X-Bar 2 +- ta/2 * SQR((S^2/n1)+(S^2/n2))
+
+0 unknown and Equal var-df=N1+N2-2
+ X-BAR1 - X-Bar 2 +- Ta/2 * SQR((N1-1)*(S1)^2 + (N2-1)*(S2)^2 / DF) * SQR(1/N1 + 1/N2)
 
 confidence interval for the mean difference
 X-bar +- ta/2,n-1 * s/SQR(N)
