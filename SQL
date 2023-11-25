@@ -91,6 +91,7 @@ where pages between 290 and 300
 
 #sorting
 uses order
+USE ON NUMBERS
 ex: order by title
 default: ascending
 to make it descending order
@@ -99,6 +100,7 @@ can also use value of column
 EX order by 2
 
 #GROUPING RESULTS
+USE ON CATEGORIES
 Eliminate Duplicates
 Distinct
 EX:select distinct(country) from author
