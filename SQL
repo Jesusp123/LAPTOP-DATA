@@ -1,6 +1,7 @@
 #AND statement use AND not &
 #Replace function
 SELECT NAME_OF_SCHOOL, REPLACE(AVERAGE_STUDENT_ATTENDANCE, '%', '') 
+IF VVORKING VVITH TEXT USE SINGLE QUOTES
 
 #when querying data, ide automatically capitalizes all letters
 #if column has spaces or special char uses underscore instead
