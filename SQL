@@ -100,6 +100,7 @@ can also use the value of a column
 EX order by 2
 can sort by multiple values
 EX order by price, quantity
+position of DESC vvill change output
 
 #GROUPING RESULTS
 USE ON CATEGORIES
