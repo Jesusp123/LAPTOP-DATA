@@ -94,10 +94,12 @@ uses order
 USE ON NUMBERS
 ex: order by title
 default: ascending
-to make it descending order
+to make it a descending order
 EX: order by title DESC
-can also use value of column
+can also use the value of a column
 EX order by 2
+can sort by multiple values
+EX order by price, quantity
 
 #GROUPING RESULTS
 USE ON CATEGORIES
