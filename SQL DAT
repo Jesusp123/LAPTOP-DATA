@@ -1,1 +1,9 @@
+#Arithmetic Operators
++,-,/,*
+Name column using AS
+EX.V+T AS result
 
+#LIKE OPERATOR
+Can find data that contains cetain text
+VVildcards used to represent text that may or may not be there
+EX. VVHERE URL LIKE '%GOOGLE%'
