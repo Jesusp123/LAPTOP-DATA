@@ -5,5 +5,14 @@ EX.V+T AS result
 
 #LIKE OPERATOR
 Can find data that contains cetain text
-VVildcards used to represent text that may or may not be there
+VVildcards are used to represent text that may or may not be there
 EX. VVHERE URL LIKE '%GOOGLE%'
+
+#IN OPERATOR
+USED TO FIND DATA CORRESPONDING TO MULTIPLE OBJECTS
+IN HAS TO BE CAPITALISED
+EX. SELECT * FROM A WHERE B IN ('CAT', 'DOG')
+
+#NOT OPERATOR
+FINDS INVERSE OF INSERTED DATA
+SELECT * FROM A WHERE B NOT IN ('CAT', 'DOG')
