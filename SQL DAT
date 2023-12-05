@@ -47,3 +47,7 @@ ON web_events.account_id = accounts.id
 JOIN orders
 ON accounts.id = orders.account_id
 ALIAS CHANGE NAME OF TABLE BY PUTTING NEVV NAME NEXT TO IT
+EX select C.COUNTRY,C.ID, N.name
+from COUNTRY C  
+join NAME N
+on C.id = N.id
