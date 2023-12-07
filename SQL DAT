@@ -32,8 +32,10 @@ UNION
 EX.SELECT * FROM A WHERE B = 6 OR B= 10
 CAN COMBINE VVITH OTHER STATEMENTS USING ()
 
-#JOINS 
+#INNER JOINS 
+BASE TABLE SHOULD BE ONE VVITH NO FOREIGN KEYS
 USE TO CONNECT DATA FROM ONE TABLE TO ANOTHER
+ONLY RETURNS DATA IN BOTH TABLES
 CONNECT USING ON CLAUSE
 EX SELECT orders.*
 FROM orders
@@ -51,3 +53,20 @@ EX select C.COUNTRY,C.ID, N.name
 from COUNTRY C  
 join NAME N
 on C.id = N.id
+EX2 select accounts.primary_poc,accounts.name,web_events.occurred_at,web_events.channel from accounts
+join web_events
+ON accounts.name = 'Walmart'
+
+# OTHER JOINS
+LEFT JOIN-RETURNS ALL ROVVS FOUND IN FIRST TABLE AND BOTH TABLES
+EX-select from left table 
+left join right table
+ON FK=PK
+
+RIGHT JOIN -RETURNS ALL ROVVS FOUND IN SECOND TABLE AND BOTH TABLES
+EX-select from RIGHT table 
+RIGHT join right table
+ON FK=PK
+
+OUTER JOINS- will return the inner join result set, 
+as well as any unmatched rows from either of the two tables being joined.
