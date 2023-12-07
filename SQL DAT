@@ -70,3 +70,6 @@ ON FK=PK
 
 OUTER JOINS- will return the inner join result set, 
 as well as any unmatched rows from either of the two tables being joined.
+
+#FILTER VVITH JOINS
+PUT FILTER CLAUSE UNDER JOINS CLAUSE
