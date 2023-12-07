@@ -72,4 +72,6 @@ OUTER JOINS- will return the inner join result set,
 as well as any unmatched rows from either of the two tables being joined.
 
 #FILTER VVITH JOINS
-PUT FILTER CLAUSE UNDER JOINS CLAUSE
+PUT FILTER CLAUSE UNDER ALL JOINS CLAUSE
+PUT NAME OF COLUMN NEXT TO SELECT STATEMENT
+ELSE COLUMN VVILL NOT SHOVV UP
