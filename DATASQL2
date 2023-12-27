@@ -1,6 +1,8 @@
 tips#
-first write a query to find all initial data then create new query to find advanced data
+first, write a query to find all initial data then create a new query to find advanced data
 ASK FOR MAX AMOUNT=FIRST FIND SUM THEN MAX
+SEPARATE EACH SUBQUERY VVITH COLUMN
+GIVE EVERYTHING AN ALIAS
 
 #SUBQUERIES
 GETS RESULTS BY GETTING DATA FROM A QUERY
@@ -23,4 +25,24 @@ USE VVITH TO SHORTEN THEM
 VVORKS LIKE IMPORTING A LIBARY IN PYTHON
 PUT AT TOP OF PAGE IN QUERY
 EX 
-VVITH NAME_ALIAS AS (QUERY)
+WITH T2 AS (
+  SELECT s.name rep_name,r.name reg_name,SUM(o.total_amt_usd) total_amount
+  FROM sales_reps s
+  join region r
+  on r.id=s.region_id
+  join accounts a
+  on s.id = a.sales_rep_id
+  join orders o
+  on o.account_id = a.id
+  group by 1,2
+  ORDER BY 3),  
+T3 AS (
+  SELECT reg_name,MAX(total_amount) total_amount
+  FROM T2
+  GROUP BY 1)
+SELECT T2.REP_NAME,T2.REG_NAME 
+FROM T2
+JOIN T3
+ON T2.reg_name = T3.reg_name AND T2.total_amount = T3.total_amount;
+
+DONT HAVE TO USE MULTIPLE VVITH TO MAKE MULTIPLE QUERIES
