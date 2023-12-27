@@ -1,3 +1,7 @@
+tips#
+first write a query to find all initial data then create new query to find advanced data
+ASK FOR MAX AMOUNT=FIRST FIND SUM THEN MAX
+
 #SUBQUERIES
 GETS RESULTS BY GETTING DATA FROM A QUERY
 ACTS LIKE A LOOP 
