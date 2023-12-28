@@ -46,3 +46,34 @@ JOIN T3
 ON T2.reg_name = T3.reg_name AND T2.total_amount = T3.total_amount;
 
 DONT HAVE TO USE MULTIPLE VVITH TO MAKE MULTIPLE QUERIES
+
+# LEFT AND RIGHT
+LEFT-GET VALUES STARTING FROM THE LEFT MOST POINT
+EX. LEFT(PHONE_NUMBER,3)-GET AREA CODE
+
+RIGHT-GETS VALUES STARTING FROM THE RIGHT MOST POINT
+EX. RIGHT(PHONE_NUMBER,3)-GET THE REST OF THE PHONE NUMBER
+
+LENGTH-RETURNS LENGTH SIZE OF STRING
+EX.LENGTH(phone_number)
+
+# POSITION AND UPPER-LOVVER
+POSITION 
+takes a character and a column, and provides the index where that character is for each row. The index of the first position is 1 in SQL.
+If youSTRPOS provides the same result as POSITION, but the syntax for achieving those results is a bit different as shown here: STRPOS(city_state, ','). come from another programming language, many begin indexing at 0. Here, you saw that you can pull the index of a comma as
+EX. POSITION(',' IN city_state).
+
+STRPOS 
+provides the same result as POSITION, but the syntax for achieving those results is a bit different as shown here: 
+EX STRPOS(city_state, ',').
+
+UPPER
+MAKE STRING ALL UPPERCASE
+EX UPPER(CITY_STATE)
+
+LOVVER-MAKE STRING ALL LOVVERCASE
+EX LOVVER(CITY_STATE)
+
+TIP- CAN USE POSITON TO GET A HOLD OF UNIQUE DATA
+EX. LEFT(CITY_STATE,POSITION(',',CITY_STATE))
+THIS CODE GETS ALL THE DATA STARTING FROM THE LEFT TILL THE PRESENCE OF A COMMA
