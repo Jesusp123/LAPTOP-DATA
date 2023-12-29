@@ -80,3 +80,23 @@ THIS CODE GETS ALL THE DATA STARTING FROM THE LEFT TILL THE PRESENCE OF A COMMA
 
 TO START FROM THE END OF THE STRING USE 
 LENGTH(S)-POSITION
+
+#CONCAT
+COMBINES COLUMS TOGETER
+EX CONCAT(first_name, ' ', last_name)
+
+PIPING = USING || TO DO SAME FUNCTION
+EX. first_name || ' ' || last_name
+
+EXAMPLE CODE
+with t1 as (select left(primary_poc,Position(' ' in primary_poc)-1) first_name,
+(primary_poc,length(primary_poc)-position(' ' in primary_poc)) as last_name 
+from accounts)
+select CONCAT(first_name, '.', last_name,'.com') as email from t1
+
+#CAST
+CHANGE THE DATA TYPE OF COLUMN
+CAST(date_column AS DATE)
+
+TO_DATE- Change a month name into the number associated with that particular month.
+EX.DATE_PART('month', TO_DATE(month, 'month'))
