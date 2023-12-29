@@ -57,6 +57,9 @@ EX. RIGHT(PHONE_NUMBER,3)-GET THE REST OF THE PHONE NUMBER
 LENGTH-RETURNS LENGTH SIZE OF STRING
 EX.LENGTH(phone_number)
 
+SUBSTRING GET A CHUNK OF A STRING
+SUBSTR(COLUMN,START,END)
+
 # POSITION AND UPPER-LOVVER
 POSITION 
 takes a character and a column, and provides the index where that character is for each row. The index of the first position is 1 in SQL.
