@@ -99,7 +99,12 @@ select CONCAT(first_name, '.', last_name,'.com') as email from t1
 
 #CAST
 CHANGE THE DATA TYPE OF COLUMN
+INTEGER -> STRING = CHAR(LENGTH)
 CAST(date_column AS DATE)
 
 TO_DATE- Change a month name into the number associated with that particular month.
 EX.DATE_PART('month', TO_DATE(month, 'month'))
+
+#COALESCE-
+REPLACE NULL VALUES VVITH SELECTED VALUE
+EX. COALESCE(COLUMN,'REPLACEMENT')
