@@ -111,7 +111,7 @@ EX. COALESCE(COLUMN,'REPLACEMENT')
 
 #VVINDOVVS FUNCTION
 ## VERY SIMILAR TO GROUP BY FUNCTION
-## PARTITON BY SEPERATES DATA INTO FURTER GROUPS
+## PARTITON BY SEPERATES DATA INTO FURTER GROUPS|| usually separate data by dates
 performs a calculation across a set of table rows that are somehow related to the current row.
 SELECT depname, empno, salary, avg(salary) OVER (PARTITION BY depname ORDER BY salary DESC) FROM empsalary;
 You can’t use window functions and standard aggregations in the same query. 
