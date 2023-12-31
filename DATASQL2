@@ -111,9 +111,17 @@ EX. COALESCE(COLUMN,'REPLACEMENT')
 
 #VVINDOVVS FUNCTION
 ## VERY SIMILAR TO GROUP BY FUNCTION
-## PARTITON BY SEPERATES DATA INTO FURTER GROUPS|| usually separate data by dates
+## PARTITION BY SEPARATES DATA INTO FURTER GROUPS|| Usually separate data by dates
+###LABEL PARTITON AFTER ALL DATA IS VVRITTEN
 performs a calculation across a set of table rows that are somehow related to the current row.
 SELECT depname, empno, salary, avg(salary) OVER (PARTITION BY depname ORDER BY salary DESC) FROM empsalary;
 You can’t use window functions and standard aggregations in the same query. 
 More specifically, you can’t include window functions in a GROUP BY clause.
 
+#COUNTING FUNCTION VVITH VVINDOVV FUNCTIONS
+ROVV_NUMBER-PROVIDES NUMBER OF ROVV IN TABLE
+
+RANK()-ASSIGNS NUMBER BASED ON RANK
+RANK CAN GIVE SAME VALUE TO ROVV ROVV_NUMBER CANT
+RANK SKIPS NUMBER IF IT GIVES TVVO ROVVS THE SAME RANK
+EX 2 GOLDS 1 BRONZE
