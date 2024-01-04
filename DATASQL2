@@ -113,7 +113,8 @@ EX. COALESCE(COLUMN,'REPLACEMENT')
 ## VERY SIMILAR TO GROUP BY FUNCTION
 ## PARTITION BY SEPARATES DATA INTO FURTER GROUPS|| Usually separate data by dates
 ###LABEL PARTITION AFTER ALL DATA IS WRITTEN
-####CAN USE PARTITION AND OVER INSTEAD OF GROUP BY VVHEN VVORKING VVITH AGREGATIONS
+####CAN USE PARTITION AND OVER INSTEAD OF GROUP BY VVHEN VVORKING VVITH AGGREGATIONS
+#####ORER BY IS IMPORTANT BECAUSE IT CREATES LINEAR TIMELINE
 performs a calculation across a set of table rows that are somehow related to the current row.
 SELECT depname, empno, salary, avg(salary) OVER (PARTITION BY depname ORDER BY salary DESC) FROM empsalary;
 You can’t use window functions and standard aggregations in the same query. 
