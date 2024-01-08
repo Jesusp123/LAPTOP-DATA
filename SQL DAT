@@ -68,8 +68,9 @@ EX-select from RIGHT table
 RIGHT join right table
 ON FK=PK
 
-OUTER JOINS- will return the inner join result set, 
+FULL OUTER JOINS- will return the inner join result set, 
 as well as any unmatched rows from either of the two tables being joined.
+RETURNS ALL DATA FROM BOTH COMBINED TABLES
 
 #FILTER VVITH JOINS
 PUT FILTER CLAUSE UNDER ALL JOINS CLAUSE
