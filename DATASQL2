@@ -134,4 +134,11 @@ SELECT id,
        RANK() OVER (PARTITION BY account_id ORDER BY total DESC) AS total_rank
 FROM orders
 
+#PERCENTILE
+You can use window functions to identify what percentile a given row falls into
+##ORDER BY determines which column to use to determine the quartiles
+###nteger ranging from 1 to the argument value, 
+dividing the partition as equally as possible
+SYNTAX-NTILE(4,5,OR 100)
+
 ####VVHEN COME BACK FROM SAN BARTOLO DO EXAMPLES LIKE,IN,NOT,BETVVEN,CASE
