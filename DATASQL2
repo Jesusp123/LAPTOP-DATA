@@ -134,6 +134,23 @@ SELECT id,
        RANK() OVER (PARTITION BY account_id ORDER BY total DESC) AS total_rank
 FROM orders
 
+UNION
+#UNION operator is used to combine the result sets of 2 or more SELECT statements
+#It removes duplicate rows between the various SELECT statements.
+#Each SELECT statement within the UNION must have the same number of fields in the result sets with similar data types
+#expression1 must be the same data type in both the first and second SELECT statement.
+#CAN ALTER ONE TABLE AND NOT THE OTHER
+EX
+SELECT *
+    FROM accounts
+    WHERE name = 'Walmart'
+
+UNION ALL
+
+SELECT *
+  FROM accounts
+  WHERE name = 'Disney'
+
 #PERCENTILE
 You can use window functions to identify what percentile a given row falls into
 ##ORDER BY determines which column to use to determine the quartiles
