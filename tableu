@@ -2,9 +2,20 @@ BI MEANS- BUSINESS INTELLIGENCE
 DEVELOPMENT-BUILDING POVVER BI SOLUTIONS
 SOLUTIONS INCLUSE - DATA SOURCES,DATA SETS,REPORT
 REPORT CONNECTED TO DATA SET
-Uses Povver query to build data sets-create ETL processes 
+Uses Povver query to build data and create ETL processes 
 Povver BI makes charts using data
 Data model-empty data query
 Data set-Data query with data
 Tabular Modl=Data model
 Measures-Formulas
+
+  #INSERTING DATA
+CSV FILE-IMPORT-TXT-CSV
+Transform Data - USE THIS BUTTON
+POVVERQUERY CAN NOT OVERVVRITE CSV FILE
+
+##Formulas
+Column profiling-helps fix errors in columns
+Distinct-Hovv many items show up in the dataset
+Unique-Hovv many items appear only once
+Close and apply-finishes and exports data
