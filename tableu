@@ -19,3 +19,16 @@ Column profiling-helps fix errors in columns
 Distinct-Hovv many items show up in the dataset
 Unique-Hovv many items appear only once
 Close and apply-finishes and exports data
+
+##Creating Report
+Many features can be added and many customizations are possible
+state map-highlights map based on data
+can be connected to other visuuals
+DAX-Code to add meaures(rules)
+NEVV DATA-ENTER TABLE
+Add data to the legend to categorize data
+SLICER-adds more subcategories
+Hierarchy-connect two pieces of data in order
+Measures vs Calculated
+Measure-Filter,can not store data
+Calculation-Create new content,Bound to specific data
