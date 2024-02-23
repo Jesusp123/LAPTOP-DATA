@@ -27,8 +27,26 @@ can be connected to other visuuals
 DAX-Code to add meaures(rules)
 NEVV DATA-ENTER TABLE
 Add data to the legend to categorize data
-SLICER-adds more subcategories
+SLICER-filter control-adds more subcategories
 Hierarchy-connect two pieces of data in order
 Measures vs Calculated
 Measure-Filter,can not store data
 Calculation-Create new content,Bound to specific data
+NEVV COLUMN
+SYNTAX
+NAME = CODE
+IF STATEMENT
+IF(<logical_test>, <value_if_true>[, <value_if_false>])
+EX
+Price Group =
+IF(
+    'Product'[List Price] < 500,
+    "Low",
+    IF(
+        'Product'[List Price] < 1500,
+        "Medium",
+        "High"
+    )
+)
+
+##
