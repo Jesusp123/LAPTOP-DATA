@@ -48,5 +48,17 @@ IF(
         "High"
     )
 )
+## Get distinct values from big table
+Distinct Countries = DISTINCT(Beer[Entity])
 
-##
+## Ribbon Chart-Ranks data and shows fluctuation
+Focus shows the entire chart
+
+## implicit vs explicit
+Explicit-created using DAX Language
+Reusable
+Flexible
+Implicit-Created by dragging visuals
+
+## tooltip pages
+extension that uses measures to create visuals
