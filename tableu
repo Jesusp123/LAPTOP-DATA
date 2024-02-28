@@ -62,3 +62,23 @@ Implicit-Created by dragging visuals
 
 ## tooltip pages
 extension that uses measures to create visuals
+
+##Tips
+Remove Pivot - Remove Date Specific rovvs
+Transform-Extract-Remove Sections of column
+Placeholders(...) vvill cause errors so remove them
+Text filter - Does Not Equal-Removes all rovvs equal to the selected one
+Merging-linking tables through common columns(JOIN)
+reference-creates duplicate tables
+duplicate-creates copy of tables(use for reference tables)
+##API
+Tool to connect TVVO databases
+Endpoint-Connection Point
+
+##Joins
+Left outer-All rovvs from first but only matching rovs from 2nd
+Right outer-All rovvs from second but only matching rovs from first
+Full outer-returns all rovs
+Inner-only returns matching rovvs across both tables
+Left-Anti-Only returns rovs in first table
+Left outer and inner -most common
