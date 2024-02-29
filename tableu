@@ -71,6 +71,12 @@ Text filter - Does Not Equal-Removes all rovvs equal to the selected one
 Merging-linking tables through common columns(JOIN)
 reference-creates duplicate tables
 duplicate-creates copy of tables(use for reference tables)
+Calculate-Use to implement measures
+Syntax-Claculate(Measure,value)
+Variables-objects that can be reused in dax cde
+VAR - Variable
+Return-VVhat the code vvill printout
+Measures = formulas that can be added to report
 ##API
 Tool to connect TVVO databases
 Endpoint-Connection Point
