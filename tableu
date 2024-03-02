@@ -73,11 +73,18 @@ reference-creates duplicate tables
 duplicate-creates copy of tables(use for reference tables)
 Calculate-Use to implement measures
 Syntax-Claculate(Measure,value)
-Variables-objects that can be reused in dax cde
+Variables-objects that can be reused in Dax Cde
 VAR - Variable
-Return-VVhat the code vvill printout
-Measures = formulas that can be added to report
-Measures need values to be numbers(make sure numbers arnt text data type)
+Return-VVhat the code vill printout
+Measures = formulas that can be added to the report
+Measures need values to be numbered (make sure numbers arnt text data type)
+Use longitude and latitude for more precise mapping
+Conditional formatting - shading and visualizing based on set filters
+Data Bars-Bars next to data showing how much space that data takes up
+Sparkline-shovvs yearly progression of data
+drill through-add second page that shows more data
+
+  TOP N FILTERING-GETS TO 10 OR BOTTOM 10 OF A CATEGORY
 ##API
 Tool to connect TVVO databases
 Endpoint-Connection Point
