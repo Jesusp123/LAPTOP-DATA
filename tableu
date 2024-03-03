@@ -83,7 +83,10 @@ Conditional formatting - shading and visualizing based on set filters
 Data Bars-Bars next to data showing how much space that data takes up
 Sparkline-shovvs yearly progression of data
 drill through-add second page that shows more data
-
+Slicer-Filter applied to report-EX Drop down Menu
+Slicers allovv for user interaction on report
+3 levels to filtering-Report-Page and Visual
+The single large value that is displayed at the center of a card visual is known as a call out value
   TOP N FILTERING-GETS TO 10 OR BOTTOM 10 OF A CATEGORY
 ##API
 Tool to connect TVVO databases
