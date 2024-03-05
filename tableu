@@ -99,3 +99,7 @@ Full outer-returns all rovs
 Inner-only returns matching rovvs across both tables
 Left-Anti-Only returns rovs in first table
 Left outer and inner -most common
+
+# Tips Pt2
+Can create icons using povverpoint
+save them as PNG
