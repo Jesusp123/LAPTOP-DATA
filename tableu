@@ -106,3 +106,17 @@ save them as PNG
 PBIP is a lot safer file format compared to PBIX
 breaks down the project in folders
 TMDL-much cleaner and more efficient editing tool for power BI 
+Povver BI  - uses star schema-takes details from business data and separates them into categories-model looks like star
+DIRECT QUERY-USED INSTEAD OF IMPORT-GETS DATA DIRECTLY FROM DATA SOURCE
+PROS
+-NO SIZE LIMITATIONS
+-NO DATA REFRESH SCHELUDE NEEDED
+CONS
+-Only certain data sources support DirectQuery
+-slower than regular imports
+-not all date transformations are supported
+blue bar on data model=direct query
+model connects primary key to foreign key
+query folding-creating one sql statement that can properly retrieve the selected data
+DONT BREAK THE FOLD
+Parameter-an item that holds a value-similar to variable
