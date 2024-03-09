@@ -116,7 +116,29 @@ CONS
 -slower than regular imports
 -not all date transformations are supported
 blue bar on data model=direct query
-model connects primary key to foreign key
+the model connects the primary key to the foreign key
 query folding-creating one sql statement that can properly retrieve the selected data
 DONT BREAK THE FOLD
-Parameter-an item that holds a value-similar to variable
+Parameter-an item that holds a value - similar to variable
+
+static-set
+dynamic-can change-EX-Scanner input
+LIST.MIN(TABLE)-GETS MIN VALUE OF A TABLE
+LIST.MAX(TABLE)-GETS MAX VALUE OF A TABLE
+Query Settings-gets query steps
+Can not have more than one active relation between two tables
+inactive relations = dotted line
+active = full line
+role-playing dimension-table that can be referenced multiple time
+quick measure-preset measures you can insert data into
+
+##Code-
+Table.TransformColumnNames(#"Source",each Text.Insert(_,0,"Order"))
+adds text to column name
+TOTALYTD()
+Gives running total grouped by year
+CALCULATE([TotalAmount],SAMEPERIODLASTYEAR('Order'[OrderDate]))
+gets total sales of previous year
+TOTALYTD([Total Sales PY],'Order'[OrderDate])
+get total YTD sales from the previous year
+Sort by column-use this button to set sorting options
