@@ -131,7 +131,10 @@ inactive relations = dotted line
 active = full line
 role-playing dimension-table that can be referenced multiple time
 quick measure-preset measures you can insert data into
-
+can add a drillthrough button to make drill through easier
+add prefix mailto ->make subcategory email-> make email a hyperlink
+url icon -> turns email into envolpe icon
+Add similar data files into folders EX.Title Measure
 ##Code-
 Table.TransformColumnNames(#"Source",each Text.Insert(_,0,"Order"))
 adds text to column name
