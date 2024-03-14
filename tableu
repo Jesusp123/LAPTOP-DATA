@@ -140,6 +140,8 @@ Dimension tree-lets you measure values by diffrent dimensions
 Visual hierarchy-The order of insertion of visuals
 Proper Vision Hierarchy makes it easier for readers to read and understand your reports
 use z format-top left=most important,lower right-less important
+app-collection of data that can be shared with others
+Data gateway-allows for smoother transportation od data into the cloud
 
 ##Code-
 Table.TransformColumnNames(#"Source",each Text.Insert(_,0,"Order"))
