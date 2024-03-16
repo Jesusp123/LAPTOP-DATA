@@ -1,5 +1,23 @@
+Add Pandas- import pandas as pd
+Add DataFrame-import dataframe as df
+List Use ()
+Series use []
 Series is used to create a one-dimensional array
+index=label
 
 ##INDEXING
 DISPLAY DEFAULT INDEX-set_index()
+
+Create series-pd.Series(List)
+return the first value of a Pandas Series-Series[0]
+insert the correct syntax to add the labels "x", "y", and "z"-pd.Series(mylist, 
+index = ["x", "y", "z"])
+Insert the correct syntax to return the first row of a DataFrame-
+df.loc[0]
+Insert the correct syntax for loading CSV files into a DataFrame-
+df.read_csv("file")
+Insert the correct syntax to return the entire DataFrame-
+df.to_string()
+
+
 
