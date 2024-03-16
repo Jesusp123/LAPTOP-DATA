@@ -1,0 +1,22 @@
+#create compresion list
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+    arr = []
+    arr.append(([i,j,k])) for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k!=n
+    print(arr)
+  create list and then append
+
+#create list and find corresponding values
+marksheet = []
+for _ in range(int(input())):
+    name=input()
+    score=float(input())
+    marksheet.append([name,score])
+
+second_highest = sorted(list(set([marks for name, marks in marksheet])))[1]
+print('\n'.join([a for a,b in sorted(marksheet) if b == second_highest]))
+//Add list outside of for loop so it can add strings
+//Join->"\n"->used to break line and start nevv line
