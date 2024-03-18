@@ -1,5 +1,9 @@
 def()-class
 create recurring code that can  be used multiple times
+##Methods
+.split-splits up string
+"".join-joins string vvith chosen symbol
+.svvapcase-svvaps upper and lovver cases
 
 Add Pandas- import pandas as pd
 Add DataFrame-import dataframe as df
