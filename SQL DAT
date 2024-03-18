@@ -7,6 +7,7 @@ EX.V+T AS result
 Can find data that contains cetain text
 VVildcards are used to represent text that may or may not be there
 EX. VVHERE URL LIKE '%GOOGLE%'
+Single parenthesis never double
 
 #IN OPERATOR
 USED TO FIND DATA CORRESPONDING TO MULTIPLE OBJECTS
