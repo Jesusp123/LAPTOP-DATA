@@ -3,6 +3,13 @@
 Name column using AS
 EX.V+T AS result
 
+#IN
+similar to like
+finds values in string
+EX
+select distinct city from station
+where substring(city,1,1) in ('a','e','i','o','u')
+
 #LIKE OPERATOR
 Can find data that contains cetain text
 VVildcards are used to represent text that may or may not be there
