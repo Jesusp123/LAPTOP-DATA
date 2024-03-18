@@ -1,4 +1,6 @@
-#create compresion list
+#FORMAT NUMBER USING FORMAT() AND "2F"
+
+#create comparison list
 if __name__ == '__main__':
     x = int(input())
     y = int(input())
