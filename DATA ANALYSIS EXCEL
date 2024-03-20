@@ -4,7 +4,11 @@ sort data,Edit,Undo,Error-Check,Analyze Data,Create charts,graphs and reports
 Not equal to
 EX."<>HE"
 #looking for data in  dictionary
-=FILTER(C4:C23,ISNUMBER(SEARCH("substitution - on",H4:H23)))			
+=FILTER(C4:C23,ISNUMBER(SEARCH("substitution - on",H4:H23)))
+
+#Find text in middle of string
+=MID(B7,SEARCH(".",B7,1)+1,SEARCH("@",B7)-SEARCH(".",B7)-1)
+subtract start of result string from end of the string
 
 Spreadsheets have many buisness and non-buissness uses
 Data Analysis uses-colleting,cleaning,Analyzing and Visualizing Data
