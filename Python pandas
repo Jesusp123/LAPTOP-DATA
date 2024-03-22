@@ -15,7 +15,7 @@ index=label
 ##INDEXING
 DISPLAY DEFAULT INDEX-set_index()
 
-Create series-pd.Series(List)
+Create series-pd.Series([List])
 return the first value of a Pandas Series-Series[0]
 insert the correct syntax to add the labels "x", "y", and "z"-pd.Series(mylist, 
 index = ["x", "y", "z"])
