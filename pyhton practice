@@ -1,4 +1,13 @@
 #FORMAT NUMBER USING FORMAT() AND "2F"
+#Use char to  look at indiviual letters of string in loop
+
+#Find number of instances of sub_string in string
+string.count(sub_string)
+or
+total = 0
+    for i in range(len(string)):
+        if string[i:len(string)].startswith(sub_string):
+            total += 1
 
 #create comparison list
 if __name__ == '__main__':
