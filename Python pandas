@@ -4,6 +4,7 @@ create recurring code that can  be used multiple times
 .split-splits up string
 "".join-joins string vvith chosen symbol
 .svvapcase-svvaps upper and lovver cases
+.compare-compres two sets,list,series
 
 Add Pandas- import pandas as pd
 Add DataFrame-import dataframe as df
