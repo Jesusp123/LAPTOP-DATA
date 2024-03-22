@@ -5,6 +5,7 @@ create recurring code that can  be used multiple times
 "".join-joins string vvith chosen symbol
 .svvapcase-svvaps upper and lovver cases
 .compare-compres two sets,list,series
+can add arthemic equation to a print statement-this results in a bolean result
 
 Add Pandas- import pandas as pd
 Add DataFrame-import dataframe as df
