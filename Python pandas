@@ -6,6 +6,7 @@ create recurring code that can  be used multiple times
 .svvapcase-svvaps upper and lovver cases
 .compare-compres two sets,list,series
 can add arthemic equation to a print statement-this results in a bolean result
+head()-takes top of dataframe
 
 Add Pandas- import pandas as pd
 Add DataFrame-import dataframe as df
