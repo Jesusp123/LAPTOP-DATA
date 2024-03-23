@@ -10,7 +10,7 @@ can add arthemic equation to a print statement-this results in a bolean result
 Add Pandas- import pandas as pd
 Add DataFrame-import dataframe as df
 List Use ()
-Series use []
+Series and dataframes use []
 Series is used to create a one-dimensional array
 index=label
 
