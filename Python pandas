@@ -2,18 +2,27 @@ def()-class
 create recurring code that can  be used multiple times
 ##Methods
 .split-splits up string
-"".join-joins string vvith chosen symbol
+"".join-joins string with chosen symbol
 .svvapcase-svvaps upper and lovver cases
-.compare-compres two sets,list,series
-can add arthemic equation to a print statement-this results in a bolean result
-head()-takes top of dataframe
+.compare-compares two sets, list,series
+can add arthemic equation to a print statement results in a boolean result
+head()-takes the top of the data frame
 
 Add Pandas- import pandas as pd
 Add DataFrame-import dataframe as df
 List Use ()
-Series and dataframes use []
+Series and data frames use []
 Series is used to create a one-dimensional array
 index=label
+
+#Uppercase and lowercase
+make string uppercase or lowercase with pandas
+up=s.upper()
+lovv=s.lower
+
+#get rid of whitespace
+up=st.replace(" ","")
+
 
 ##INDEXING
 DISPLAY DEFAULT INDEX-set_index()
