@@ -10,6 +10,8 @@ head()-takes the top of the data frame
 
 Add Pandas- import pandas as pd
 Add DataFrame-import dataframe as df
+EX.data = [['tom', 10], ['nick', 15], ['juli', 14]]
+add column to dataframe-db['Name']=
 List Use ()
 Series and data frames use []
 Series is used to create a one-dimensional array
@@ -38,5 +40,11 @@ df.read_csv("file")
 Insert the correct syntax to return the entire DataFrame-
 df.to_string()
 
-
-
+#lambda and similar functions
+List()-creates list
+map()-returns results that match criteria
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression
+ex. x = lambda a : a + 10
+print(x(5))
+ex= df['countc']= list(map(lambda x: x.count('i'),df['Color']))
