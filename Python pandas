@@ -51,3 +51,7 @@ ex. x = lambda a : a + 10
 print(x(5))
 ex= df['countc']= list(map(lambda x: x.count('i'),df['Color']))
 filter using lambda-p=list(filter(lambda x:(x%2==0),a))
+
+#Joining and  merging 
+Joining tvvo dataframes-result_data = pd.concat([student_data1, student_data2])
+add series to dataframe-pd.concat([s1,s6.to_frame().T], ignore_index=True)
