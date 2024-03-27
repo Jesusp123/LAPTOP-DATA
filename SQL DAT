@@ -3,6 +3,9 @@
 Name column using AS
 EX.V+T AS result
 
+#group by
+if you are trying to count distinct objects in list dont forget to use group by
+
 #IN
 similar to like
 finds values in string
