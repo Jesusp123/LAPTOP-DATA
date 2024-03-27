@@ -16,6 +16,8 @@ List Use ()
 Series and data frames use []
 Series is used to create a one-dimensional array
 index=label
+sort tuples-subject_marks.sort(key=lambda x: x[1])
+sort dict.- subject_marks.sort(key=lambda x: x['color])
 
 #Uppercase and lowercase
 make string uppercase or lowercase with pandas
@@ -48,3 +50,4 @@ A lambda function can take any number of arguments, but can only have one expres
 ex. x = lambda a : a + 10
 print(x(5))
 ex= df['countc']= list(map(lambda x: x.count('i'),df['Color']))
+filter using lambda-p=list(filter(lambda x:(x%2==0),a))
