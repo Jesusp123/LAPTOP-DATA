@@ -51,6 +51,8 @@ ex. x = lambda a : a + 10
 print(x(5))
 ex= df['countc']= list(map(lambda x: x.count('i'),df['Color']))
 filter using lambda-p=list(filter(lambda x:(x%2==0),a))
+squaring a list of #-list(map(lambda x: x ** 2, nums))
+when doing calculations with numbers-dont forget map
 
 #Joining and  merging 
 Joining tvvo dataframes-result_data = pd.concat([student_data1, student_data2])
