@@ -54,6 +54,15 @@ filter using lambda-p=list(filter(lambda x:(x%2==0),a))
 squaring a list of #-list(map(lambda x: x ** 2, nums))
 when doing calculations with numbers-dont forget map
 
+#if statement vvith lambda
+t = "She"
+x=lambda x : True if x.startswith(t[0].upper()) else False
+print(x(t))
+#check if numeber or digit
+t = '2'
+x= lambda x: True if x.isdigit() else False
+print(x(t))
+
 #Joining and  merging 
 Joining tvvo dataframes-result_data = pd.concat([student_data1, student_data2])
 add series to dataframe-pd.concat([s1,s6.to_frame().T], ignore_index=True)
