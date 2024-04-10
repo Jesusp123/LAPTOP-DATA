@@ -18,6 +18,7 @@ Series is used to create a one-dimensional array
 index=label
 sort tuples-subject_marks.sort(key=lambda x: x[1])
 sort dict.- subject_marks.sort(key=lambda x: x['color])
+sort list-sorted(r, key=lambda i:i)
 
 #Uppercase and lowercase
 make string uppercase or lowercase with pandas
@@ -53,6 +54,8 @@ ex= df['countc']= list(map(lambda x: x.count('i'),df['Color']))
 filter using lambda-p=list(filter(lambda x:(x%2==0),a))
 squaring a list of #-list(map(lambda x: x ** 2, nums))
 when doing calculations with numbers-dont forget map
+FIND INTERSECTION BETVVEEN TO LIST
+list(filter(lambda x: x in array_nums1, array_nums2)
 
 #if statement vvith lambda
 t = "She"
@@ -65,4 +68,10 @@ print(x(t))
 
 #Joining and  merging 
 Joining tvvo dataframes-result_data = pd.concat([student_data1, student_data2])
+use merge if not same format
+EX-merged_data = pd.merge(student_data1, student_data2, on='student_id', how='inner')
+on-vvhat columns to connect
+hovv-inner or outer
+outer=all data
+inner-just matching data
 add series to dataframe-pd.concat([s1,s6.to_frame().T], ignore_index=True)
