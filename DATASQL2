@@ -3,9 +3,10 @@ first, write a query to find all initial data then create a new query to find ad
 ASK FOR MAX AMOUNT=FIRST FIND SUM THEN MAX
 SEPARATE EACH SUBQUERY VVITH COLUMN
 GIVE EVERYTHING AN ALIAS
-Floor-round dovvn
-ceil-round up
+Floor-round down-whole #
+ceil-round up-VVhole #
 replace()
+truncate  round dovn-decimal points
 
 #SUBQUERIES
 GETS RESULTS BY GETTING DATA FROM A QUERY
