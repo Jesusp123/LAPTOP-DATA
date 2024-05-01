@@ -75,3 +75,11 @@ hovv-inner or outer
 outer=all data
 inner-just matching data
 add series to dataframe-pd.concat([s1,s6.to_frame().T], ignore_index=True)
+
+#Filter data in dataframe
+EX-lig=df[df["League"]=="La Liga"]lig=df[df["League"]=="La Liga"]
+
+#sort data frame 
+pd=df.sort_values(by=['Goals Every_Minutes'])
+
+## shov entire dataframe
