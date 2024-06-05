@@ -209,17 +209,30 @@ FROM orders
 LIMIT 10;
 
 CODE
+#Select
 select * from  employment
 select EMPLOYEEKEY,SALESTERRITORYKEY,FIRSTNAME,LASTNAME,TITLE,HIREDATE,STARTDATE,EMAILADDRESS,PHONE,GENDER,PAYFREQUENCY,BASERATE,DEPARTMENTNAME from employee AS EMPLOYMENT
+#Limit
+select * from employment
+WHERE HIREDATE < '2008-09-14'
+LIMIT 10
+#LIKE
+select * from employment
+WHERE title like '%WC%'
+#ORDER BY
+select * from employment
+WHERE title like '%WC%'
+ORDER BY TITLE
+#NOT IN
+select * from employment
+WHERE DEPARTMENTNAME NOT IN ('Production','Tool Design')
+#IN
+select * from employment
+WHERE DEPARTMENTNAME IN ('Finance','Quality Assurance')
 
 TO-DO 
-IN-
-NOT IN 
-LIKE
-LIMIT
 CONCAT
 GROUP BY
-ORDER BY
 DISTINCT
 WHERE
 HAVING
