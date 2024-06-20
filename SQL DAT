@@ -230,16 +230,30 @@ WHERE DEPARTMENTNAME NOT IN ('Production','Tool Design')
 select * from employment
 WHERE DEPARTMENTNAME IN ('Finance','Quality Assurance')
 
+#CONCAT
+select CONCAT(FIRSTNAME, LASTNAME) from employment
+
+#DISTINCT
+select DISTINCT(DEPARTMENTNAME)from employment
+
+#WHERE
+select * from employment
+WHERE BASERATE > 20
+
+#AND
+select * from employment
+WHERE BASERATE > 20 AND BASERATE < 40
+
+#OR
+select * from employment
+WHERE BASERATE > 20 OR BASERATE % 2 = 0
+
 TO-DO 
-CONCAT
 GROUP BY
-DISTINCT
-WHERE
 HAVING
 LEFT 
 RIGHT
 SUBSTRING
 CASE
-AND 
 OR
 ADD CONCAT COLUMN
